@@ -23,10 +23,10 @@ export default async function Page() {
   // const revenue = await fetchRevenue();
   // const latestInvoices = await fetchLatestInvoices();
   const {
-    totalPaidInvoices,
-    totalPendingInvoices,
-    numberOfInvoices,
-    numberOfCustomers,
+    // totalPaidInvoices, // TODO: never used
+    // totalPendingInvoices, // TODO: never used
+    // numberOfInvoices, // TODO: never used
+    // numberOfCustomers, // TODO: never used
   } = await fetchCardData();
   return (
     <main>
